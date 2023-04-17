@@ -72,6 +72,8 @@ include(GenerateExportHeader)
 include(BuildInfo)
 GenerateBuildInfo(${CMAKE_CURRENT_LIST_DIR}/study_cmake_build_info.h.in ${CMAKE_CURRENT_BINARY_DIR}/study_cmake_build_info.h)
 
+include(clang-format)
+
 add_subdirectory(external)
 add_subdirectory(src)
 

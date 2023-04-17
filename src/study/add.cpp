@@ -1,11 +1,7 @@
 #include "add.h"
 
-namespace study
-{
+namespace study {
 
-int add(int& a, int& b)
-{
-    return a + b;
-}
+int add(int &a, int &b) { return a + b; }
 
-}   // !namespace study
+} // namespace study

@@ -3,11 +3,10 @@
 
 #include "study_export.h"
 
-namespace study
-{
+namespace study {
 
-STUDY_EXPORT int add(int& a, int& b);
+STUDY_EXPORT int add(int &a, int &b);
 
-}   // !namespace study
+} // namespace study
 
-#endif  // !__STUDY_ADD_H__
+#endif // !__STUDY_ADD_H__
